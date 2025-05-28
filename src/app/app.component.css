@@ -1,0 +1,10 @@
+@media (min-width: 0) {
+  .app__containerPage {
+    width: 100%;
+    height: 90vh;
+    padding-inline: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+  }
+}
