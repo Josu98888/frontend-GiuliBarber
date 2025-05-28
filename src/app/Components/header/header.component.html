@@ -1,7 +1,7 @@
 <header class="header">
     <div class="header__container">
         <div class="header__containerList">
-            <button class="header__btn"> 
+            <button class="header__btn" (click)="togleMenu()"> 
                 <img class="header__list" src="icons/list-stars.svg" alt="list" >
             </button>
         </div>
@@ -9,4 +9,5 @@
             <img class="header__logo" src="logos/giulibarberLogo.png" alt="logoBarberia">
         </div>
     </div>
+    <app-dropdown class="header__dropdown" *ngIf="dropdown"></app-dropdown>
 </header>

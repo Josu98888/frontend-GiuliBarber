@@ -1,0 +1,28 @@
+@media( min-width:0) {
+    .dropdown {
+        background-color: #490849;
+        width: 110px;
+        height: 160px;
+        border: 2px solid #970597 ;
+        border-radius: 8px;
+        padding-inline: 4px;
+    }
+    .dropdown__list {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        gap: 2px;
+    }
+    .dropdown__link {
+        list-style: none;
+        font-size: 16px;
+        color: #e40be4;
+        font-weight: bold;
+        border: 2px solid #970597;
+        padding: 2px;
+        border-radius: 6px;
+        text-align: left;
+    }
+}
