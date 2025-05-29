@@ -1,0 +1,17 @@
+@media (min-width: 0) {
+  .title__container {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0 0 15px #970597);
+  }
+  .title__h {
+    text-align: center;
+    background: radial-gradient(#970597,#3e055a);
+    font-weight: 800;
+    font-family: system-ui;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
