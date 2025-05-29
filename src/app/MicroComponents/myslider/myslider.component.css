@@ -1,0 +1,23 @@
+@media (min-width: 0) {
+  .myslider {
+    width:  100vw;
+    height: 200px;
+    position: relative;
+  }
+  .myslider__btnLeft,
+  .myslider__btnRight {
+    border-radius: 6px;
+    border: 1px solid violet;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .myslider__btnLeft {
+    left: 5%;
+  }
+
+  .myslider__btnRight {
+    right: 5%;
+  }
+}
