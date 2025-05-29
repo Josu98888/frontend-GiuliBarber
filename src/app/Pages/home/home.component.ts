@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { MysliderComponent } from '../../MicroComponents/myslider/myslider.component';
+import { CardComponent } from '../../Components/card/card.component';
 
 @Component({
   selector: 'app-home',
-  imports: [MysliderComponent],
+  imports: [MysliderComponent, CardComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

@@ -1,7 +1,7 @@
 @media (min-width: 0) {
   .myslider {
     width:  100vw;
-    height: 200px;
+    height: 350px;
     position: relative;
   }
   .myslider__btnLeft,
@@ -12,6 +12,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    filter: drop-shadow(0 0 15px #970597);
   }
   .myslider__btnLeft {
     left: 5%;
@@ -19,5 +20,12 @@
 
   .myslider__btnRight {
     right: 5%;
+  }
+  .myslider__content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
