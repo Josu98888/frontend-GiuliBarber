@@ -1,9 +1,14 @@
 <div>
     <main>
+        <div class="home__title" >
+            <app-title [h]="'h2'" [title]="'Renovamos tu confianza'"></app-title>
+        </div>
         <app-myslider>
             <app-card></app-card>
         </app-myslider>
-        <app-title [h]="'h1'" [title]="'Reservá un turno'"></app-title>
+        <div class="home__titleForm">
+        <app-title [h]="'h2'" [title]="'Reservá un turno'"></app-title>
+        </div>
         <app-form></app-form>
     </main>
 </div>
