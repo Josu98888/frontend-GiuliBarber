@@ -3,10 +3,11 @@ import { MysliderComponent } from '../../MicroComponents/myslider/myslider.compo
 import { CardComponent } from '../../Components/card/card.component';
 import { TitleComponent } from '../../MicroComponents/title/title.component';
 import { FormComponent } from '../../Components/form/form.component';
+import { SocialNetworksComponent } from '../../Components/social-networks/social-networks.component';
 
 @Component({
   selector: 'app-home',
-  imports: [MysliderComponent, CardComponent, TitleComponent, FormComponent],
+  imports: [MysliderComponent, CardComponent, TitleComponent, FormComponent, SocialNetworksComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
