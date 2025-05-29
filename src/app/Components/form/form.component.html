@@ -1,0 +1,74 @@
+<form class="form">
+    <div class="form__container">
+        <div class="form__containerInput">
+            <label class="form__label" for="">Nombre</label>
+            <input class="form__input" type="text">
+            <div class="form__containerError">
+                <p class="form__error"></p>
+            </div>
+        </div>
+        <div class="form__containerInput">
+            <label class="form__label" for="">Telefono</label>
+            <input class="form__input" type="tel" placeholder="+54 9 11" [value]="+50911" pattern="^\+54911\d{8}$">
+            <div class="form__containerError">
+                <p class="form__error"></p>
+            </div>
+        </div>
+        <div class="form__containerInputDate">
+            <div class="form__containerInput">
+                <label class="form__label" for="">fecha</label>
+                <input class="form__inputDate" type="date">
+            </div>
+            <div class="form__containerInput">
+                <label class="form__label" for="">hora</label>
+                <select class="form__inputDate">
+                    <option value="14:00">14:00</option>
+                    <option value="14:30">14:30</option>
+                    <option value="15:00">15:00</option>
+                    <option value="15:30">15:30</option>
+                    <option value="16:00">16:00</option>
+                    <option value="16:30">16:30</option>
+                    <option value="17:00">17:00</option>
+                    <option value="17:30">17:30</option>
+                    <option value="18:00">18:00</option>
+                </select>
+                <div class="form__containerError">
+                    <p class="form__error"></p>
+                </div>
+            </div>
+        </div>
+        <div class="form__containerInput">
+            <label class="form__label" for="">Servicio</label>
+            <select class="form__input">
+                <option value="16:30">Corte de pelo</option>
+                <option value="17:00">Teñido</option>
+                <option value="17:30">Alisado</option>
+            </select>
+            <div class="form__containerError">
+                <p class="form__error"></p>
+            </div>
+        </div>
+        <div class="form__containerInputDate">
+            <div  class="form__containerInput">
+                <label class="form__label" for="">Peluquero</label>
+                <select class="form__inputDate">
+                    <option value="16:30">GiuliBarber</option>
+                </select>
+                <div class="form__containerError">
+                    <p class="form__error"></p>
+                </div>
+            </div>
+            <div class="form__containerInput">
+                <label class="form__label" for="">Seña</label>
+                <input class="form__inputDate" type="text" readonly value="$4.000">
+            </div>
+        </div>
+        <div class="form__containerBtn">
+            <button class="form__btn">Confirmar</button>
+        </div>
+        <div class="form__containersuccess">
+            <p class="form__success"></p>
+        </div>
+    </div>
+
+</form>
