@@ -4,12 +4,20 @@
             <app-title [h]="'h2'" [title]="'Renovamos tu confianza'"></app-title>
         </div>
         <app-myslider>
-            <app-card></app-card>
+            <app-card [image]="'images/cortedepelo1.jpg'" [title]="'Corte de Pelo'" ></app-card>
         </app-myslider>
         <div class="home__titleForm">
         <app-title [h]="'h2'" [title]="'Reservá un turno'"></app-title>
         </div>
         <app-form></app-form>
         <app-social-networks></app-social-networks>
+        <div class="home__titleStore" >
+            <app-title [h]="'h2'" [title]="'Productos destacados'"></app-title>
+        </div>
+        <app-myslider>
+            <app-card [image]="'images/pantene.jpg'" [title]="'Shampoo Pantene'" [is_product]="true"></app-card>
+        </app-myslider>
+                    <app-title [h]="'h2'" [title]="'Renovamos tu confianza'"></app-title>
+
     </main>
 </div>
