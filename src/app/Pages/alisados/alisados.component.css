@@ -1,0 +1,8 @@
+@media (min-width: 0) {
+    .alisados__container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 20px;
+    }
+}

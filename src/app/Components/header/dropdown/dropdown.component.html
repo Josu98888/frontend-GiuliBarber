@@ -1,9 +1,9 @@
 <div class="dropdown">
     <div class="dropdown__container">
         <ul class="dropdown__list">
-            <li class="dropdown__link">Teñidos</li>
-            <li class="dropdown__link">Alisados</li>
-            <li class="dropdown__link">Cortes</li>
+            <li class="dropdown__link" [routerLink]="['/tenidos']">Teñidos</li>
+            <li class="dropdown__link" [routerLink]="['/alisados']">Alisados</li>
+            <li class="dropdown__link" [routerLink]="['/services']">Cortes</li>
             <li class="dropdown__link" (click)="goToTurn()">Turnos</li>
             <li class="dropdown__link" [routerLink]="['/store']">Tienda</li>
         </ul>
