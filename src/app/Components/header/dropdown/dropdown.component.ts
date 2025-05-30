@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { CommonModule, ViewportScroller } from '@angular/common'; 
 
 @Component({
   selector: 'app-dropdown',
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './dropdown.component.html',
   styleUrl: './dropdown.component.css'
 })
