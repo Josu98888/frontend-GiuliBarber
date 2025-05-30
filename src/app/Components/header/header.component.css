@@ -7,6 +7,8 @@
     border-bottom: 2px solid #970597;
     background: radial-gradient(circle, #970597e8, #020202);
     filter: drop-shadow(0 0 15px #970597);
+    position: relative;
+    z-index: 1000;
   }
   .header__container {
     display: flex;

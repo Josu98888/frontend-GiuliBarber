@@ -10,7 +10,7 @@ import { NgClass, NgIf } from '@angular/common';
   styleUrl: './header.component.css',
 })
 export class HeaderComponent {
-  public dropdown: boolean = true;
+  public dropdown: boolean = false;
 
   togleMenu() {
     this.dropdown = !this.dropdown;
