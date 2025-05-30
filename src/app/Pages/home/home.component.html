@@ -1,21 +1,25 @@
 <div>
     <main>
-        <div class="home__title" >
+        <div class="home__title">
             <app-title [h]="'h2'" [title]="'Renovamos tu confianza'"></app-title>
         </div>
         <app-myslider>
-            <app-card [image]="'images/cortedepelo1.jpg'" [title]="'Corte de Pelo'" ></app-card>
+            <app-card #slideItem [image]="'images/cortedepelo1.jpg'" [title]="'Corte de Pelo'"></app-card>
+            <app-card #slideItem [image]="'images/teñido.jpg'" [title]="'Tinte Rojo'"></app-card>
+            <app-card #slideItem [image]="'images/alisados.jpg'" [title]="'Alisado'"></app-card>
         </app-myslider>
         <div class="home__titleForm">
-        <app-title [h]="'h2'" [title]="'Reservá un turno'"></app-title>
+            <app-title [h]="'h2'" [title]="'Reservá un turno'"></app-title>
         </div>
         <app-form id="form"></app-form>
         <app-social-networks></app-social-networks>
-        <div class="home__titleStore" >
+        <div class="home__titleStore">
             <app-title [h]="'h2'" [title]="'Productos destacados'"></app-title>
         </div>
         <app-myslider>
-            <app-card [image]="'images/pantene.jpg'" [title]="'Shampoo Pantene'" [is_product]="true"></app-card>
+            <app-card #slideItem  [image]="'images/pantene.jpg'" [title]="'Shampoo Pantene'" [is_product]="true"></app-card>
+            <app-card #slideItem  [image]="'images/maqunita.jpg'" [title]="'Maquina'" [is_product]="true"></app-card>
+            <app-card  #slideItem [image]="'images/tintura.jpg'" [title]="'Tintura'" [is_product]="true"></app-card>
         </app-myslider>
         <app-title [h]="'h2'" [title]="'Nuestra ubicación'"></app-title>
         <app-maps></app-maps>

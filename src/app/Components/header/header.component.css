@@ -19,6 +19,7 @@
   .header__btn {
     background: radial-gradient(circle, #ee0ceee8, #020202);
     filter: drop-shadow(0 0 15px #970597);
+    border:2px solid #970597;
     border-radius: 5px;
     width: 50px;
     height: 40px;

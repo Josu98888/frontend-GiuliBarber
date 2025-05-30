@@ -1,11 +1,11 @@
 <div class="myslider" >
-    <button class="myslider__btnLeft" >
+    <button class="myslider__btnLeft" (click)="prev()" >
         <img class="myslider__"  src="icons/caret-left-fill.svg" alt="iconoFlecha">
     </button>
-    <div class="myslider__content">
+    <div class="myslider__content" #slider >
         <ng-content ></ng-content>
     </div>
-    <button class="myslider__btnRight" >
+    <button class="myslider__btnRight" (click)="next()">
         <img  class="myslider__" src="icons/caret-right-fill.svg" alt="iconoFlecha">
     </button>
 </div>
